@@ -13,7 +13,7 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 
-    @GetMapping("/hello")
+    @GetMapping("/hello-spring")
     String greet(){
         return "Hello, Spring!";
     }
